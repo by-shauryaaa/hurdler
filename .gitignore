@@ -1,0 +1,16 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.venv/
+env/
+
+# Ignore local agent credentials and configurations
+.agents/mcp_config.json
+.agents/mcp_config.json.template
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
